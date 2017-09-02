@@ -1,0 +1,18 @@
+
+$#ifndef __USERDET_FD
+$#define __USERDET_FD
+
+*base 9000
+
+
+A_FIRSTNAME             1       string  - 1 First name
+A_LASTNAME              2       string  - 1 Last name
+A_MAIDENNAME            3       string  - 1 Maiden name
+A_AGE                   4       short   - 1 Age
+A_PROFILETAGS           5       short   - 1 Number of profile data entries
+A_PROFILEDATA           6       string  - M Profile data entries
+A_STATUSCODE            7       short   - status code
+A_STATUSMESSAGE         8       string  - status message code
+
+
+$#endif

@@ -1,0 +1,14 @@
+syntax = "proto3";
+message Userdet {
+        string firstName = 1;
+        string lastName = 2;
+        string maidenName = 3;
+        int32 age = 4;
+        int32 profileTags = 5;
+        repeated string profileData = 6;
+}
+
+message Resultdet {
+        int32 statusCode = 1;
+        string statusMessage = 2;
+}
